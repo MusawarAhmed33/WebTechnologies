@@ -1,1 +1,750 @@
-# WebTechnologies
+
+
+
+
+<!DOCTYPE html>
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="style.css" rel="stylesheet" />
+  <title>
+	Staff
+</title>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./Staff.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_RadScriptManager1_TSM" id="ctl00_RadScriptManager1_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="84B2D0D2" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="" />
+</div>
+        
+
+        
+ <div class="off-canvas-wrap" data-offcanvas>
+            <div class="inner-wrap">
+                <nav class="tab-bar" style="background:#eee">
+                    <div class="row">
+            <div class="small-12 medium-3 large-3 columns small-only-text-center">
+                 <a class="button tiny secondary"  href="#aa" target="_blank"><i class="fi-social-facebook size-18"></i></a>
+                 <a class="button tiny secondary" href="#aa" target="_blank"><i class="fi-social-twitter size-18"></i></a>
+                 <a class="button tiny secondary" href="#aa" target="_blank"><i class=" fi-social-blogger size-18"></i></a>
+                 <a class="button tiny secondary" href="#aa" target="_blank"><i class="fi-photo size-18"></i></a>
+
+</div>
+    <div class="small-12 medium-9 large-9 columns"  style="color:#eee">
+        
+        <div class="right">
+                  
+                 <a class="button tiny secondary" href="#aa" >Forgot Password</a>
+                  <a class="button tiny secondary" href="#aa" >Sign Up</a>
+                    
+            <a class="button tiny secondary" href="#aa" >Sign In with Email</a>
+            <a class="button tiny secondary" href="#aa" >Sign In with Username</a>
+          
+    </div></div>
+</div>
+                </nav>
+ </div></div>
+     
+ <div class="row" >
+                <img src="images/fac_bg.jpg" class=" small-12 medium-5 large-5 columns left" style="margin-top:-0.5rem;" />
+ <div class="small-12 medium-7 large-7 columns small-only-text-center">
+ <div class="right">        
+  <a class="item button tiny" href="#aa" style="width:9em;"><i class="fi-home size-21"></i><label style="color:#fff">Home</label></a>
+  <a class="item button tiny success" href="#aa" style="width:9em;" ><i class="fi-telephone size-21"></i><label style="color:#fff">Contact</label></a>
+ 
+  
+  <a class="item button tiny alert" style="width:9em;" href="#aa" target="_blank"><i class= "fi-comments size-21"></i> <label style="color:#fff">Feedback</label></a>
+</div>
+</div>
+              
+ </div>
+   
+        
+<div class="contain-to-grid" style="background:#4390DF">
+             <div class="sticky">
+
+      <nav class="top-bar" data-topbar data-options="sticky_on: large" role="navigation" style="background:#4390DF;">
+                <ul class="title-area">
+    <li class="name">
+      <h1><a href="#"> </a></h1>
+    </li>
+     
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+        <section class="top-bar-section">
+            <ul class="left" >
+     <li class="current"><a href="Default.aspx">Home</a></li>
+                
+                <li class="current"><a href="#aa">A to Z Faculty</a></li>
+                <li class="current"><a href="#aa">Faculty</a></li>
+                <li class="current"><a href="#aa">A to Z Staff</a></li>
+    <li class="current"><a href="#aa">Staff</a></li>
+                <li class="current"><a href="#aa">Browse By Campus</a></li>
+    <li class="current"><a href="#aa">Registration</a></li>
+
+                  <li class="current"><a href="#aa">Search Faculty/Staff</a></li>
+                
+    
+             
+      
+    
+    
+    
+
+                        </ul>
+            </section>
+                </nav>   
+      </div></div>
+              
+       
+       <div class="off-canvas-wrap" data-offcanvas>
+            <div class="inner-wrap">
+            <div class="row" style="padding-top:2rem;">
+                <div class="small-12 medium-3 large-3 columns">
+                    <h2>Quick Links</h2>
+                    <a href="#aa" target="_blank" class="button expand small">CUI Main Website</a>
+                    <a href="#aa" target="_blank" class="button expand secondary small">Research Portal</a>
+                    <a href="#aa" target="_blank" class="button expand small">Scholarships Portal</a>
+                    <a href="#aa" target="_blank" class="button expand secondary small">Photo Gallery</a>
+
+                    <a href="#aa" target="_blank" class="button expand small">CUI Blogs</a>
+                    
+                    <a href="#aa" target="_blank" class="button expand secondary small">CUI Job Portal</a>
+
+                    
+                    <a href="#aa" target="_blank" class="button expand  small">Open Access Journals</a>
+                    <a href="#aa" target="_blank" class="button expand secondary small">CUI Thesis Repository</a>
+                    <a href="#aa" target="_blank" class="button expand  small">CUI Conference & Workshops</a>
+                    <a href="#aa" target="_blank" class="button expand  secondary small">CUI Union Catalogue</a>
+                </div>
+                <div class="small-12 medium-9 large-9 columns">
+                
+    
+   <div style="float:left; width:59%; text-align:left; border-width:0;  border-color:white; border-style:none;" ><a ><h1>Latest Staff Profiles</h1> </a></div>
+    <div style="float:left; width:40%; text-align:right; border-width:0; border-color:white; border-style:none;" ><a class="item button tiny success" href="SearchByName.aspx" style="width:14em;" data-reveal-id="contactModal"><label style="color:#fff">Search Staff</label></a></div>
+    
+    <div style="float:left; border-color:white; border-width:0; width:100%;">
+        <div id="ctl00_ContentPlaceHolder1_ctl00_ContentPlaceHolder1_ctl00Panel">
+	<div id="ctl00_ContentPlaceHolder1_ctl00">
+		
+            <p>These profiles are shown in descending order by profile creation date.</p>
+
+      <div id="ctl00_ContentPlaceHolder1_RadGrid1" class="RadGrid RadGrid_MetroTouch" style="width:100%;">
+
+		<table class="rgMasterTable" border="0" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00" style="width:100%;table-layout:auto;empty-cells:show;">
+	<colgroup>
+		<col  />
+		<col  />
+	</colgroup>
+<thead>
+		<tr>
+			<th scope="col" class="rgHeader"><a title="Click here to sort" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl02$ctl01$ctl00&#39;,&#39;&#39;)">Profiles</a></th><th scope="col" class="rgHeader"><a title="Click here to sort" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl02$ctl01$ctl01&#39;,&#39;&#39;)">Faculty / Staff Members</a></th>
+		</tr>
+	</thead><tfoot>
+		<tr class="rgFooter">
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="rgPager">
+			<td colspan="2"><table border="0" style="width:100%;border-spacing:0;">
+				<tr>
+					<td class="rgPagerCell NextPrevAndNumeric"><div class="rgWrap rgArrPart1">
+						<input type="submit" name="ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl02" value=" " onclick="return false;" title="First Page" class="rgPageFirst" /> <input type="submit" name="ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl03" value=" " onclick="return false;" title="Previous Page" class="rgPagePrev" />
+					</div><div class="rgWrap rgNumPart">
+						<a onclick="return false;" class="rgCurrentPage" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl05&#39;,&#39;&#39;)"><span>1</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl07&#39;,&#39;&#39;)"><span>2</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl09&#39;,&#39;&#39;)"><span>3</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl11&#39;,&#39;&#39;)"><span>4</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl13&#39;,&#39;&#39;)"><span>5</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl15&#39;,&#39;&#39;)"><span>6</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl17&#39;,&#39;&#39;)"><span>7</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl19&#39;,&#39;&#39;)"><span>8</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl21&#39;,&#39;&#39;)"><span>9</span></a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl23&#39;,&#39;&#39;)"><span>10</span></a><a title="Next Pages" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl25&#39;,&#39;&#39;)"><span>...</span></a>
+					</div><div class="rgWrap rgArrPart2">
+						<input type="submit" name="ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl28" value=" " title="Next Page" class="rgPageNext" /> <input type="submit" name="ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$ctl29" value=" " title="Last Page" class="rgPageLast" />
+					</div><div class="rgWrap rgAdvPart">
+						<span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl03_ctl01_ChangePageSizeLabel" class="rgPagerLabel">Page size:</span><div id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl03_ctl01_PageSizeComboBox" class="RadComboBox RadComboBox_MetroTouch" style="width:62px;white-space:normal;">
+							<table summary="combobox" style="border-width:0;border-collapse:collapse;width:100%">
+								<tr class="rcbReadOnly">
+									<td style="width:100%;" class="rcbInputCell rcbInputCellLeft"><input name="ctl00$ContentPlaceHolder1$RadGrid1$ctl00$ctl03$ctl01$PageSizeComboBox" type="text" class="rcbInput" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl03_ctl01_PageSizeComboBox_Input" value="15" readonly="readonly" /></td>
+									<td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl03_ctl01_PageSizeComboBox_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+								</tr>
+							</table>
+							
+					</div></td>
+				</tr>
+			</table></td>
+		</tr>
+	</tfoot><tbody>
+	<tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__0">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30669" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30669" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Waqas Ali</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30669" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl04_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30669" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__1">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30668" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30668" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Asghar Ali</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30668" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl06_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30668" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__2">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30667" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30667" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Sajid Mehmood</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30667" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl08_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30667" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__3">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30666" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30666" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Rana M sajid</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30666" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl10_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30666" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__4">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30665" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30665" style="font-size:14pt;font-weight:bold;text-decoration:underline;">M Ali Ijaz</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30665" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl12_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30665" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__5">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30664" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30664" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Abbad Ali</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30664" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl14_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30664" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__6">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30663" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30663" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Sajid Latif</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30663" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl16_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30663" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__7">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30662" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30662" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Shahid Imran</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30662" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl18_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30662" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__8">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30661" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30661" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Zaheer Abbas</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30661" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl20_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30661" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__9">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30660" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30660" style="font-size:14pt;font-weight:bold;text-decoration:underline;">M Usman</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30660" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl22_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30660" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__10">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30659" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30659" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Waheed Ahmad</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30659" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl24_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30659" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__11">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30658" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30658" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Fiaz Mehmood</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30658" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl26_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30658" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__12">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30657" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30657" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Iftekhar Ali</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30657" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl28_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30657" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgAltRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__13">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30656" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30656" style="font-size:14pt;font-weight:bold;text-decoration:underline;">M Tayyab</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_Label3" style="font-size:12pt;">Bus Helper</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30656" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl30_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30656" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr><tr class="rgRow" id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00__14">
+		<td style="width:20%;">
+                <table class="nav-justified">
+                    <tr style="text-align:center;">
+                        <td>
+                            <img id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_Image2" src="DefaultUserImage/noimage.jpg" style="width:105px;border-width:0px;" />
+                            <br />
+                            <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_HyperLink2" class="btn btn-danger" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30655" style="color:White;">Show Profile</a>
+                        </td>
+                    </tr>
+                </table>
+            </td><td>
+                <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_HyperLink2" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30655" style="font-size:14pt;font-weight:bold;text-decoration:underline;">Shahid latif</a>
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_Label3" style="font-size:12pt;">Mechanic</span>
+                ,
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_Label5" style="font-size:12pt;">Transport Office</span>
+                Department,
+                <br />
+                <span id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_Label6" style="font-size:12pt;">Sahiwal</span>
+                Campus<br />
+                <br />
+                
+                 <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_HyperLink1" class="button tiny " href="http://ww3.comsats.edu.pk/contact/default.aspx?D=30655" target="_blank" style="color:White;">Send Message</a>
+                
+                  <a id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00_ctl32_HyperLink3" class="button tiny success" href="http://ww3.comsats.edu.pk/faculty/FacultyDetails.aspx?Uid=30655" style="color:White;">View Profile</a>
+              
+                
+                
+           
+                <br />
+                
+                
+            </td>
+	</tr>
+	</tbody>
+
+</table><input id="ctl00_ContentPlaceHolder1_RadGrid1_ClientState" name="ctl00_ContentPlaceHolder1_RadGrid1_ClientState" type="hidden" />
+			</div>
+		
+    
+    
+    
+        
+	</div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_RadAjaxLoadingPanel1" class="RadAjax RadAjax_Default" style="display:none;">
+	<div class="raDiv">
+		
+    
+	</div><div class="raColor raTransp">
+
+	</div>
+</div>
+    </div>
+
+                    </div>
+      </div></div></div>
+       <div class="off-canvas-wrap" data-offcanvas style="background:#151515">
+            <div class="inner-wrap">
+            <div class="row">
+                <div class="small-12 medium-12 large-12 columns text-center">
+                        <div class="small-12 medium-12 large-12 columns text-center" style="color:#c7c7c7; padding-top:2em; padding-bottom:2em;">
+                <div class="small-12 medium-6 large-6 columns text-right small-only-text-center" style="color:#c7c7c7">
+                    <h5 style="color: #fff;"><i class="fi-telephone" style="color: #0094ff"></i> Contact Us</h5>
+                    <strong style="color:#c7c7c7">Tel:</strong> +92-51-9247000-9247002 and 9049802<br />
+                    <strong style="color:#c7c7c7">UAN:</strong> +92-51-111-001-007
+    
+              </div>
+                             <div class="small-12 medium-6 large-6 columns text-left small-only-text-center" style="color:#c7c7c7">
+                                  <h5 style="color: #fff;"><i class="fi-map" style="color: #ff6a00;"></i> Reach Us at</h5>
+                    Park Road, Tarlai Kalan,<br />
+                    Islamabad 45550, Pakistan
+                             </div>
+                    </div>
+        
+                <div class="small-12 medium-12 large-12 columns text-center">
+                     <a class="button tiny" href="https://www.facebook.com/pages/Comsats-Institute-of-Information-Technology-Islamabad-Campus-Official/212244615476041" target="_blank"><i class="fi-social-facebook size-24"></i></a>
+                    <a class="button tiny success" href="https://twitter.com/#!/ciitislamabad" target="_blank"><i class="fi-social-twitter size-24"></i></a>
+                    <a class="button tiny info" href="http://ww3.comsats.edu.pk/ciitblogs" target="_blank"><i class="fi-social-blogger size-24"></i></a>
+                    <a class="button tiny alert" href="http://ww3.comsats.edu.pk/photogallery" target="_blank"><i class="fi-photo size-24"></i></a>
+                    <br />
+                    <br />
+                    
+                    <p><strong style="color: #eee;">Powered by:</strong> <a class="button tiny" href="http://ww3.comsats.edu.pk/itc">ITCentre</a></p>
+                </div>
+                </div>
+            
+            </div>
+        </div>
+           </div>
+    
+
+</body>
+</html>
